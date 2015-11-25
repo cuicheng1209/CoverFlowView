@@ -15,6 +15,13 @@
 		AA1F4DB81C0552FB00C035DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1F4DB61C0552FB00C035DC /* LaunchScreen.storyboard */; };
 		AA1F4DC31C0552FB00C035DC /* CCCoverFlowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F4DC21C0552FB00C035DC /* CCCoverFlowViewTests.m */; };
 		AA1F4DCE1C0552FB00C035DC /* CCCoverFlowViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F4DCD1C0552FB00C035DC /* CCCoverFlowViewUITests.m */; };
+		AA1F4DDD1C05532500C035DC /* CCCoverFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F4DDC1C05532500C035DC /* CCCoverFlowView.m */; };
+		AA1F4DE71C05A75600C035DC /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA1F4DE11C05A75600C035DC /* 1.jpg */; };
+		AA1F4DE81C05A75600C035DC /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA1F4DE21C05A75600C035DC /* 2.jpg */; };
+		AA1F4DE91C05A75600C035DC /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA1F4DE31C05A75600C035DC /* 3.jpg */; };
+		AA1F4DEA1C05A75600C035DC /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA1F4DE41C05A75600C035DC /* 4.jpg */; };
+		AA1F4DEB1C05A75600C035DC /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA1F4DE51C05A75600C035DC /* 5.jpg */; };
+		AA1F4DEC1C05A75600C035DC /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA1F4DE61C05A75600C035DC /* 6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,14 @@
 		AA1F4DC91C0552FB00C035DC /* CCCoverFlowViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCCoverFlowViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1F4DCD1C0552FB00C035DC /* CCCoverFlowViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCoverFlowViewUITests.m; sourceTree = "<group>"; };
 		AA1F4DCF1C0552FB00C035DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1F4DDB1C05532500C035DC /* CCCoverFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCoverFlowView.h; sourceTree = "<group>"; };
+		AA1F4DDC1C05532500C035DC /* CCCoverFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCoverFlowView.m; sourceTree = "<group>"; };
+		AA1F4DE11C05A75600C035DC /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		AA1F4DE21C05A75600C035DC /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		AA1F4DE31C05A75600C035DC /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		AA1F4DE41C05A75600C035DC /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		AA1F4DE51C05A75600C035DC /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		AA1F4DE61C05A75600C035DC /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,12 @@
 		AA1F4DA71C0552FB00C035DC /* CCCoverFlowView */ = {
 			isa = PBXGroup;
 			children = (
+				AA1F4DE11C05A75600C035DC /* 1.jpg */,
+				AA1F4DE21C05A75600C035DC /* 2.jpg */,
+				AA1F4DE31C05A75600C035DC /* 3.jpg */,
+				AA1F4DE41C05A75600C035DC /* 4.jpg */,
+				AA1F4DE51C05A75600C035DC /* 5.jpg */,
+				AA1F4DE61C05A75600C035DC /* 6.jpg */,
 				AA1F4DAB1C0552FB00C035DC /* AppDelegate.h */,
 				AA1F4DAC1C0552FB00C035DC /* AppDelegate.m */,
 				AA1F4DAE1C0552FB00C035DC /* ViewController.h */,
@@ -110,6 +131,8 @@
 				AA1F4DB61C0552FB00C035DC /* LaunchScreen.storyboard */,
 				AA1F4DB91C0552FB00C035DC /* Info.plist */,
 				AA1F4DA81C0552FB00C035DC /* Supporting Files */,
+				AA1F4DDB1C05532500C035DC /* CCCoverFlowView.h */,
+				AA1F4DDC1C05532500C035DC /* CCCoverFlowView.m */,
 			);
 			path = CCCoverFlowView;
 			sourceTree = "<group>";
@@ -246,7 +269,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1F4DEC1C05A75600C035DC /* 6.jpg in Resources */,
 				AA1F4DB81C0552FB00C035DC /* LaunchScreen.storyboard in Resources */,
+				AA1F4DEB1C05A75600C035DC /* 5.jpg in Resources */,
+				AA1F4DEA1C05A75600C035DC /* 4.jpg in Resources */,
+				AA1F4DE71C05A75600C035DC /* 1.jpg in Resources */,
+				AA1F4DE81C05A75600C035DC /* 2.jpg in Resources */,
+				AA1F4DE91C05A75600C035DC /* 3.jpg in Resources */,
 				AA1F4DB51C0552FB00C035DC /* Assets.xcassets in Resources */,
 				AA1F4DB31C0552FB00C035DC /* Main.storyboard in Resources */,
 			);
@@ -273,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1F4DDD1C05532500C035DC /* CCCoverFlowView.m in Sources */,
 				AA1F4DB01C0552FB00C035DC /* ViewController.m in Sources */,
 				AA1F4DAD1C0552FB00C035DC /* AppDelegate.m in Sources */,
 				AA1F4DAA1C0552FB00C035DC /* main.m in Sources */,
